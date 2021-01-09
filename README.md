@@ -4,7 +4,7 @@ A minimal GUI to merge PDF files together into a single PDF file.
 ---
 
 ## Screenshot
-![PDFMerger Electron GUI]()
+![PDFMerger Electron GUI](https://github.com/itsDevKay/PDFMerger-Electron-GUI/blob/main/PDFMergerElectronGUI.png)
 
 ## Why I Build This
 Part of my work in my day job requires me to print paperwork for our customers, sometimes for one customer this could be up to 80 papers. We have more than 1 customer. The program that we use to get this paper work takes an between 8-12 seconds to start printing, during which the program is in a state of limbo until it's done. If we assume the average is 10 seconds, then thats 800 seconds. That's 13.3 minutes of waiting.
