@@ -1,0 +1,29 @@
+{
+  "name": "PDFMerger",
+  "version": "0.1.0",
+  "author": "KeanuAaron",
+  "description": "Allows user to select multiple PDF files to merge into a single file.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "pdf-merger-js": "^3.0.5",
+    "pdfjs": "^2.4.2"
+  },
+  "build": {
+    "appId": "itsdev.kay",
+    "mac": {
+      "category": "business"
+    }
+  }
+}
