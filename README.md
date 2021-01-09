@@ -15,6 +15,8 @@ After getting a new PC at work, I learned from the IT department that my employe
 
 So, I developed a simple Electron application that would allow me to select multiple pdf files with no limit and then combine those files into a single PDF file of which I could then print all files with a click of a single button. To me, thats glorious.
 
+This application makes use of [PDF Merger JS](https://github.com/nbesli/pdf-merger-js) who's only dependency is [PDF JS](https://www.npmjs.com/package/pdfjs)
+
 ## Limitations
 This project is still in development stages, and I have only tested simple PDFs. There is an issue when trying to print PDF files that have headers. As far as footers, I have not tested that yet.
 
